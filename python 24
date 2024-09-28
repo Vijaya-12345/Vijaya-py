@@ -1,0 +1,8 @@
+[4:09 pm, 26/9/2024] Shilpa 1: 24
+[4:09 pm, 26/9/2024] Shilpa 1: def last_candy_recipient(N, K, A):
+    last_child = (A - 1 + K - 1) % N + 1
+    return last_child
+
+# Example usage:
+N, K, A = map(int, input().strip().split())
+print(last_candy_recipient(N, K, A))
